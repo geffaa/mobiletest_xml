@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/firstscreen_bg"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo_add_person"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/logo_add"
+        android:layout_marginBottom="51dp" />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="310dp"
+        android:layout_height="44dp"
+        android:background="@drawable/edittext_bg"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:hint="Name"
+        android:textSize="16sp"
+        android:textColorHint="@color/gray"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/poppinsregular"/>
+
+    <EditText
+        android:id="@+id/etSentence"
+        android:layout_width="310dp"
+        android:layout_height="44dp"
+        android:hint="Palindrome"
+        android:textSize="16sp"
+        android:background="@drawable/edittext_bg"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/poppinsregular"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button_bg"
+        android:text="Check"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsregular"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:textSize="14sp"
+        android:background="@drawable/button_bg"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/poppinsregular"/>
+
+</LinearLayout>
