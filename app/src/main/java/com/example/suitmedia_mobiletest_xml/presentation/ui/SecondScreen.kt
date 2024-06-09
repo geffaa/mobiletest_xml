@@ -3,6 +3,7 @@ package com.example.suitmedia_mobiletest_xml.presentation.ui
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +23,11 @@ class SecondScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second_screen)
+
+        val ivBack: ImageView = findViewById(R.id.ivBack)
+        ivBack.setOnClickListener {
+            finish()
+        }
 
         val tvName: TextView = findViewById(R.id.tvName)
         tvSelectedUser = findViewById(R.id.tvSelectedUser)
