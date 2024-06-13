@@ -1,4 +1,4 @@
-package com.example.suitmedia_mobiletest_xml.presentation.ui
+package com.example.suitmedia_mobiletest_xml.presentation.ui.thirdscreen
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,7 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.example.suitmedia_mobiletest_xml.R
+import com.example.suitmedia_mobiletest_xml.presentation.ui.UserAdapter
 import com.example.suitmedia_mobiletest_xml.presentation.viewmodel.UserViewModel
+import com.example.suitmedia_mobiletest_xml.presentation.ui.utils.DividerItemDecoration
 
 class ThirdScreen : AppCompatActivity() {
 

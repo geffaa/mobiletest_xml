@@ -1,4 +1,4 @@
-package com.example.suitmedia_mobiletest_xml.presentation.ui
+package com.example.suitmedia_mobiletest_xml.presentation.ui.utils
 
 
 import android.widget.ImageView

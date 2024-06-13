@@ -16,7 +16,7 @@
             android:exported="false" />
         <!-- FirstScreen declaration with android:exported -->
         <activity
-            android:name=".presentation.ui.FirstScreen"
+            android:name=".presentation.ui.firstscreen.FirstScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- SecondScreen declaration -->
-        <activity android:name=".presentation.ui.SecondScreen" />
+        <activity android:name=".presentation.ui.secondscreen.SecondScreen" />
     </application>
 
 </manifest>

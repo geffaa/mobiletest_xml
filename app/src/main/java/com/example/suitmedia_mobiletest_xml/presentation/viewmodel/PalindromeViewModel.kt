@@ -13,5 +13,8 @@ class PalindromeViewModel : ViewModel() {
     fun checkPalindrome(sentence: String) {
         val cleanSentence = sentence.replace("\\s".toRegex(), "").lowercase(Locale.ROOT)
         _isPalindrome.value = cleanSentence == cleanSentence.reversed()
+
+//        val reversedSentence = StringBuilder(cleanSentence).reverse().toString()
+//        return cleanSentence == reversedSentence
     }
 }

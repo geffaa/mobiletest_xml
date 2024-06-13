@@ -1,4 +1,4 @@
-package com.example.suitmedia_mobiletest_xml.presentation.ui
+package com.example.suitmedia_mobiletest_xml.presentation.ui.firstscreen
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.example.suitmedia_mobiletest_xml.R
+import com.example.suitmedia_mobiletest_xml.presentation.ui.secondscreen.SecondScreen
 import com.example.suitmedia_mobiletest_xml.presentation.viewmodel.PalindromeViewModel
 
 class FirstScreen : AppCompatActivity() {
